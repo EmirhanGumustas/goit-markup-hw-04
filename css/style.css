@@ -29,6 +29,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
   position: relative;
   z-index: 2; 
 }
+.footer-flex{
+display: flex;
+gap: 120px;
+align-items: flex-start;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -306,21 +312,54 @@ background-color: #2E2F42;
 .frame-footer{
   width: 264px;
   height: 72px;
-  padding-top: 16px;
+  padding-top: 16px 0 0 0;
   color: #F4F4FD;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
-  padding-bottom: 100px;
-      padding-bottom: 100px;
+  
+  
 }
 .frame-footer-white{
   color: white;
+  margin-bottom: 17.5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
-.footer-margin{
-  padding-top: 101.5px;
+.frame-margin{
+  /* padding-top: 101.5px;
+  margin-bottom: 100px; */
+}
+
+.icon-p-flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  flex-direction: column;
+  margin-top: 80px; 
+  margin-left: 120px
+}
+.logo-p-border{
+  width: 264px;
+  justify-content: flex-start;
+  margin-top:80px;
+  margin-bottom: 40px;
+   display: flex;
+  flex-direction: column;
+}
+.icon-p-flex-item{
+  width: 208px;
+height: 80px;
+}
+.footer-p-margin{
+  margin-bottom: 8px;
+
 }
 /* icons */
 
@@ -341,6 +380,7 @@ background-color: #2E2F42;
   width: 61px;
   height: 64px;
 }
+
 /* icons OUR TEAM */
 .icon-ourteam{
  display: flex;
