@@ -434,6 +434,25 @@ transform: translateY(0%)
   color: white;
   background-color: #4D5AE5;
 }
+.icon-ourteam-item-border:hover{
+  background-color: #404BBF;
+  cursor:pointer ;
+}
+
+.icon-ourteam-item-border-footer{
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  color: white;
+  background-color: #4D5AE5;
+}
+.icon-ourteam-item-border-footer:hover{
+  background-color: #31D0AA;
+  cursor:pointer ;
+}
 
 .icon-ourteam-item{
 width: 16px;
