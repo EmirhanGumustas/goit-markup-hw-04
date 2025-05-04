@@ -76,11 +76,14 @@ align-items: flex-start;
 }
 .nav-menu a:hover{
   color: #404BBF;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-menu a:active{
   color: #404BBF;
     border-bottom: 2px solid #404BBF;
   padding-bottom: 4px;
+  transition-duration: 250ms;
 }
 
 .contact{
@@ -117,6 +120,8 @@ ul li a{
 }
 .contact ul li:hover{
   color: #404BBF;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 nav > ul {
@@ -185,6 +190,8 @@ button{
 }
 button:hover{
   background-color: #404BBF;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .display-flex-section-two{
   display: flex;
@@ -307,6 +314,8 @@ button:hover{
 }
 .portfolio-h3:hover{
 background-color: #4d5ae5;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Footer*/
@@ -437,6 +446,8 @@ transform: translateY(0%)
 .icon-ourteam-item-border:hover{
   background-color: #404BBF;
   cursor:pointer ;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-ourteam-item-border-footer{
@@ -452,6 +463,8 @@ transform: translateY(0%)
 .icon-ourteam-item-border-footer:hover{
   background-color: #31D0AA;
   cursor:pointer ;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-ourteam-item{
